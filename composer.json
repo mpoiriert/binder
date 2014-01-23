@@ -3,7 +3,7 @@
     "type": "library",
     "minimum-stability": "dev",
     "description": "Reusable library",
-    "keywords": ["library","session","cookie","binding","symfony","nucleus"],
+    "keywords": ["library","session","cookie","binding","nucleus"],
     "license": "MIT",
     "authors": [
         {
@@ -19,5 +19,9 @@
     },
     "autoload": {
         "psr-0": {"Nucleus\\": "src/"}
+    },
+    "suggest": {
+        "mpoirier/binder-bundle": "Use the binder-bundle for Symfony integration"
     }
+
 }

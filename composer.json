@@ -18,7 +18,7 @@
         "phpunit/phpunit": "3.7.*"
     },
     "autoload": {
-        "psr-0": {"Nucleus\\": "src/"}
+        "psr-0": {"Nucleus\\Binder": "src/"}
     },
     "suggest": {
         "mpoirier/binder-bundle": "Use the binder-bundle for Symfony integration"

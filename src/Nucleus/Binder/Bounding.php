@@ -1,17 +1,17 @@
 <?php
 
-namespace Nucleus\Binder\Bound;
+namespace Nucleus\Binder;
 
 /**
  * @Annotation
- * 
+ *
  * @Target({"PROPERTY"})
  */
 class Bounding
 {
     public $scope = IBinder::DEFAULT_SCOPE;
 
-    public $namespace = IBinder::DEFAULT_NAMESPACE;
+    public $namespace = null;
 
     public $variableName = null;
 }
